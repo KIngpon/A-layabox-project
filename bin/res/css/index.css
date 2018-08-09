@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+.ani {
+    background: url(../../../laya/assets/bg.png) no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+    margin-top: 12px;
+    text-align: center;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+
+.ani img {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.ani .play {
+    background: url(../../../laya/assets/center.png) no-repeat;
+    background-size: 100% 100%;
+    height: 62px;
+    width: 232px;
+    position: absolute;
+    bottom: 5rem;
+    left: 50%;
+    transform: translate(-50%);
+    line-height: 67px;
+    font-size: 22px;
+}
+
+p {
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.footer {
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer p {
+    line-height: 50px;
+}
+
+.footer p:nth-child(1) {
+    background: url(../../../laya/assets/left.png) no-repeat;
+    background-size: 100% 100%;
+    height: 47px;
+    width: 94px;
+}
+.footer p:nth-child(2) {
+    background: url(../../../laya/assets/center.png) no-repeat;
+    background-size: 100% 100%;
+    height: 48px;
+    width: 163px;
+}
+.footer p:nth-child(3) {
+    background: url(../../../laya/assets/right.png) no-repeat;
+    background-size: 100% 100%;
+    height: 47px;
+    width: 94px;
+}
+.Rankings {
+    background: url(../../../laya/assets/paihang.png) no-repeat;
+    background-size: 100% 100%;
+    width: 375px;
+    height: 533px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+}
+.Rankings .head {
+    display: flex;
+    justify-content: space-around;
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 3.5rem;
+}
+.Rankings .head img {
+    height: 80px;
+    width: 80px;
+}
+.Rankings .head p {
+    color: #8A4406;
+    text-align: center;
+}
+.Rankings .head div p:last-child {
+    color: red;
+}
+
+.Rankings div {
+    width: 88%;
+    margin: 0 auto;
+}
+.Rankings .content {
+    overflow: scroll;
+    height: 17rem;
+}
+.Rankings .content img {
+    width: 50px;
+    height: 50px;
+}
+.Rankings .content div {
+    height: 5rem;
+    align-items: center;
+    justify-content: space-around;
+}
+.Rankings .content div p {
+    text-align: center;
+}
+.btn {
+    background: url(../../../laya/assets/btn.png) no-repeat;
+    background-size: 100% 100%;
+    height: 49px;
+    width: 138px;
+    line-height: 49px;
+    text-align: center;
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translate(-50%);
+    letter-spacing: 2px;
+}
+.mask {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+}
